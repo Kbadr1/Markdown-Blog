@@ -35,7 +35,7 @@ const Post = ({ post }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Link href={`/blog/${post.slug}`}>
+        <Link href={`/blog/${post.slug}`} passHref>
           <Button
             size="medium"
             variant="contained"
