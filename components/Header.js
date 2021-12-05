@@ -11,7 +11,7 @@ export default function Header() {
       }}
     >
       <Container maxWidth="lg">
-        <Link href="/">
+        <Link href="/" passHref>
           <Typography
             variant="h6"
             style={{

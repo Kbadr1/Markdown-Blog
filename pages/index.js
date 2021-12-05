@@ -14,9 +14,9 @@ export default function Home({ posts }) {
       </Head>
       <Container maxWidth="lg">
         <Grid container spacing={4}>
-          {posts.map((post) => (
+          {posts.map((post, i) => (
             <Grid item xs={12} sm={6} lg={4}>
-              <Post post={post} />
+              <Post key={i} post={post} />
             </Grid>
           ))}
         </Grid>
